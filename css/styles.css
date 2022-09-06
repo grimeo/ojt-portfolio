@@ -1,4 +1,5 @@
 *{
+    box-sizing: border-box;
     padding: 0px;
     margin: 0px;
     color: WHITE;
@@ -51,16 +52,16 @@ h1, p, ul{
 }
 
     .left_container {
-        width: 500px;
+        width: 35vw;
         height: 100vh;
     }
         .header{
-            width:520px;
+            width:35vw;
             top:0px;
             left:0px;
         }   
         .header_border{
-            width:500px;
+            width:35vw;
             height: 100vh;
             background: #111111;
             border-bottom-right-radius: 50%;
@@ -76,16 +77,17 @@ h1, p, ul{
             }
         }
         .header_border_cover{
-            width:480px;
+            width:34vw;
             height: 100vh;
             background: #111111;
             border-bottom-right-radius: 50%;
             border-top-right-radius: 50%;
         }
             .header_container{
-                width:400px;
+                
+                width:380px;
                 height: 300px;
-                transform: translate3d(0,180px,0);
+                transform: translate3d(0,170px,0);
             }
                 .fname_container{
                     width: 300px;
@@ -116,7 +118,14 @@ h1, p, ul{
     
 
     .right_container {
-        width:64%;
+        width: 63vw;
         height: 100vh;
     }
+
+.second_page {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
 
