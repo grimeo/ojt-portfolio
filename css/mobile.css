@@ -77,17 +77,15 @@ h1, p, ul{
         }
     }
     .header_border_cover{
-        text-align: center;
-        width:98vw;
+        width:100vw;
         height: 100vh;
         background: #111111;
-        border-bottom-right-radius: 50%;
-        border-top-right-radius: 50%;
     }
         .header_container{
             width:280px;
             height: 300px;
             transform: translate3d(0,170px,0);
+            margin: auto;
         }
             .fname_container{
                 width: 280px;
