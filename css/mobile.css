@@ -32,7 +32,6 @@
         margin-left:270px;
       }
     }
-
     
 h1, p, ul{
     animation: show-up 1s cubic-bezier(0.23, 1, 0.320, 1) forwards;
