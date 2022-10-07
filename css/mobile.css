@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    color: WHITE;
+    background-color: #111111;
+    font-family: 'Circular Std Bold',Helvetica,Arial,sans-serif;
+}
+
+.animation_block{
+    width: 0px;
+    height: 70px;
+    background-color: WHITE;
+    top:0px;
+    left: 0px;
+    transform: translate3d(10px, -70px, 0);
+    border-radius: 50px;
+    z-index: 10;
+    animation: left-to-right 1s cubic-bezier(0.23, 1, 0.320, 1) forwards;
+    animation-delay: .7s;
+  }
+    @keyframes left-to-right {
+      0%   {
+        
+      }
+      50%{
+        width:270px; 
+        margin-left:0px;
+      }
+      100% {
+        width:0px;
+        margin-left:270px;
+      }
+    }
+
+    
+h1, p, ul{
+    animation: show-up 1s cubic-bezier(0.23, 1, 0.320, 1) forwards;
+    animation-delay: 1.1s;
+    margin: 100px 0 0 0;
+    
+}
+    @keyframes show-up{
+        100%{
+        margin-top: 0px;
+        }
+    }
+
+.left_container, .right_container{
+    display:inline-block;
+    vertical-align: top;
+    margin: 0;
+}
+
+.left_container {
+    width: 100vw;
+    height: 100vh;
+}
+    .header{
+        width:100vw;
+        top:0px;
+        left:0px;
+    }   
+    .header_border{
+        width:100vw;
+        height: 100vh;
+        background: #111111;
+        border-bottom-right-radius: 50%;
+        border-top-right-radius: 50%;
+        background: linear-gradient(to top, WHITE 50%, transparent 50%);
+        background-size:100% 200%;
+        animation: draw-border 1s cubic-bezier(0.23, 1, 0.320, 1) forwards;
+        animation-delay: 1.1s;
+    }
+    @keyframes draw-border {
+        100%{
+        background-position: bottom; 
+        }
+    }
+    .header_border_cover{
+        text-align: center;
+        width:98vw;
+        height: 100vh;
+        background: #111111;
+        border-bottom-right-radius: 50%;
+        border-top-right-radius: 50%;
+    }
+        .header_container{
+            width:280px;
+            height: 300px;
+            transform: translate3d(0,170px,0);
+        }
+            .fname_container{
+                width: 280px;
+                height: 70px;
+                margin: 0px 0 0 10px;
+                overflow: hidden;
+                font-size: 30px;
+            }
+            .lname_container{
+                width: 270px;
+                height: 70px;
+                margin: -50px 0 0 10px;
+                overflow: hidden;
+                font-size: 30px;
+            }
+            .description{
+                width: 270px;
+            }
+            .description_name_container{
+                width: 270px;
+                height: 30px;
+                margin: 0 0 0 10px;
+                overflow: hidden;
+                font-size: 15px;
+                letter-spacing: 2px;
+            }
+            .description_container{
+                width: 270px;
+                height: 60px;
+                margin: 0 0 0 10px;
+                overflow: hidden;
+                font-size: 15px;
+                letter-spacing: 2px;
+            }
+
