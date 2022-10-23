@@ -221,6 +221,8 @@
                 height: 40px;
                 color: black;
                 background-color: gray;
+                outline: none;
+                border: none;
                 opacity: .7 ;
                 transform: translate3d(-40px,-40px,0);
             }
@@ -229,6 +231,8 @@
                 height: 40px;
                 color: black;
                 background-color: gray;
+                outline: none;
+                border: none;
                 opacity: .7;
                 transform: translate3d(155px,-40px,0);
             }
