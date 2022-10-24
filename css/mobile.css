@@ -45,10 +45,45 @@
         }
     }
 
+.prime_nav{
+    position: fixed;
+    list-style-type: none;
+    width: 100%;
+    height:55px;
+    z-index: 10;
+    background-color: #111111;
+    padding-top: 5px;
+}
+    .inline{
+        display:inline-block;
+    }
+    .prime_nav_li{  
+        vertical-align: middle;
+    }
+        .prime_nav_li_a{
+            display: block;
+            font-size: 20px;
+            text-decoration: none;
+            text-align: center;
+            padding: 10px;
+        }
+            .R_icon{
+                margin-right: 30px;
+            }
+            .R_icon_a{
+                width: 100%;
+                height: auto;
+            }
+            .R_icon_a_img{
+                width: 40px;
+                height: 40px;
+            }
+
 .left_container, .right_container{
     display:block;
     margin: 0;
 }
+
 
 .left_container {
     width: 100vw;
