@@ -57,6 +57,9 @@
     .inline{
         display:inline-block;
     }
+    .rightFloat{
+        float: right;
+    }
     .prime_nav_li{  
         vertical-align: middle;
     }
@@ -68,15 +71,15 @@
             padding: 10px;
         }
             .R_icon{
-                margin-right: 30px;
             }
             .R_icon_a{
                 width: 100%;
                 height: auto;
             }
             .R_icon_a_img{
-                width: 40px;
+                width: 44px;
                 height: 40px;
+                margin:2px 4px 2px;
             }
 
 .left_container, .right_container{
