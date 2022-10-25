@@ -207,7 +207,7 @@ head, .animate_name{
             transform: translate(-50%, -50%);
             opacity: 0;
             animation: fade-to-show 2s cubic-bezier(0.23, 1, 0.320, 1) forwards;
-            animation-delay: 1.1s;
+            animation-delay: 1.3s;
             
         }
 
