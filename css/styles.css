@@ -351,3 +351,63 @@ head, .animate_name{
                     transform: translate3d(315px,-250px,0);
                 }
     
+                .footer{
+                    width: 960px;
+                    transform: translate3d(0, 20px, 0);
+                    margin: auto;
+                }
+
+                .about, .footer_contacts_ul{
+                    display: inline-block;
+                }
+                .footer_contacts_ul{
+                    list-style-type: none;
+                    text-align: center;
+                    margin: 20px 10px 20px 200px;
+                }
+                .about{
+                    margin:  20px 10px 20px 20px;
+                }
+                .contacts_ul_li{
+                    display:inline-block;
+                }   
+                .contacts_ul_li_a{
+                    width: 100%;
+                    height: 100%;
+                }
+                .contacts_ul_li_a_img{
+                    width:50px;
+                    height: 50px;
+                    background-color: white;
+                    border: 1px solid white;
+                    border-radius: 10px;
+                }
+
+                .documents{
+                    margin:  20px 10px 20px 20px;
+                }
+                .doc_ul_li_desk1{
+                    display: inline-block;
+                }
+                .doc_ul_li_desk2{
+                    display: inline-block;
+                }
+                .documents_ul{
+                    width: 900px;
+                    list-style-type: none;
+                    margin: 10px auto 10px auto;
+                }
+                .documents_ul_li{
+                    width: 210px;
+                    background-color: rgb(24, 24, 24);
+                    padding: 10px;
+                    margin: 5px;
+                } 
+                .documents_ul_li_a{
+                    display: block;
+                    text-decoration: none;
+                    background-color: rgb(24, 24, 24);
+                } 
+                .charotcopyright{
+                    text-align: center;
+                }
