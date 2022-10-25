@@ -95,7 +95,12 @@
                 height: 40px;
                 margin:2px 4px 2px;
             }
-
+            .frontpage{
+                width: 100%; 
+                height: auto;
+                display:block;
+                margin: 0 auto;
+            }
 .left_container, .right_container{
     display:block;
     margin: 0;
